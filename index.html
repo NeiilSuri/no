@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Maths Quiz</title>
+</head>
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Neiil Nirbhay Suri</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="#">Learn more</a></li>
+            <li><a href="#">Thank You</a></li>
+
+        </ul>
+    </div>
+    <div class="container">
+        <center>
+            <h2 style="color: white;">Maths Quiz</h2>
+            <h3 id="player_question"></h3>
+            <h3 id="player_answer"></h3>
+            
+            <div id="output" class="col-lg-6"></div>
+            
+            <br>
+            <br>
+
+            <label>Maths Quiz <b style="color: red"></b></label>
+            <p>Number 1</p>
+            <img src="img_avatar.png" width="200px" height="200px">
+            <input type="text" id="word" class="form-control" placeholder="Word">
+            <br>
+            <p>Number 2</p>
+            <img src="img_avatar2.png" width="200px" height="200px">
+            <input type="text" id="word" class="form-control" placeholder="Word">
+            <br>
+            <a href="quiz.html"><button onclick="send()" class="btn btn-success" style="width:30%;">Send</button></a>
+    
+        </center>
+    </div>
+</div>
+</body>
+</html>
